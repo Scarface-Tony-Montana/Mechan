@@ -2,9 +2,9 @@ const Discord = require("discord.js");
 const moment = require("moment");
 let os = require("os");
 let cpuStat = require("cpu-stat");
-const snekfetch = require("snekfetch");
 const ostb = require("os-toolbox");
 const { exec } = require("child_process");
+const ipInfo = require("ipinfo");
 module.exports.run = (client, message) => {
   if (message.member.hasPermission("MANAGE_MESSAGES")) {
     message.delete();
@@ -21,9 +21,10 @@ module.exports.run = (client, message) => {
 
     message.channel.send("Loading...").then(m => {
       
-      m.edit("Doing Speedtest...");
+      m.edit("Doing Speedtest...")
       exec("speedtest-cli --simple --share", (error, stdout, stderr) => {
         m.edit("Loading Everything...")
+        ipInfo((err, cLoc) => {
         ostb.cpuLoad().then(cpuusage => {
           ostb.memoryUsage().then(memusage => {
             ostb
@@ -35,7 +36,7 @@ module.exports.run = (client, message) => {
                 embed.setColor("#2C2F33");
                 embed.setAuthor(`${client.user.username} Bot Information`, client.user.displayAvatarURL);
 
-                embed.setFooter(client.footer, client.footerIMG);
+               // embed.setFooter(client.footer, client.footerIMG);
                 embed.setTitle(`**__${client.user.username}'s Bot Information__**`);
 
                 //embed.addField("\ub200", `> **Latest Bot Commit**: ${date.toISOString().replace("T", " ").split(".")[0]}`)
@@ -52,6 +53,7 @@ module.exports.run = (client, message) => {
                     `> **CPU Cores:** ${os.cpus().length}`,
                     `> **CPU Clock:** ${cpuStat.clockMHz(2)}MHz`,
                     `> **Server Memory Usage:** ${meuse}%`,
+		                `> **Hosting** : ${cLoc.org}`,
                     `**VPS Speedtest:**\n${stdout}`
                   ].join("\n")
                 );
@@ -70,6 +72,7 @@ module.exports.run = (client, message) => {
       });
     });
   });
+});
 };
 
 
