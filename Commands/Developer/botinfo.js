@@ -21,7 +21,7 @@ module.exports.run = (client, message) => {
 
     message.channel.send("Loading...").then(m => {
       
-      m.edit("Doing Speedtest...")
+      m.edit("Doing Speedtest...");
       exec("speedtest-cli --simple --share", (error, stdout, stderr) => {
         m.edit("Loading Everything...")
         ostb.cpuLoad().then(cpuusage => {
