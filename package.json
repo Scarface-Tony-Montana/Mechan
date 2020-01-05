@@ -1,0 +1,42 @@
+{
+  "name": "mechan",
+  "version": "1.0.1",
+  "description": "Mechan Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "colors": "^1.4.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^11.5.1",
+    "fetch": "^1.1.0",
+    "file-stream-rotator": "^0.5.5",
+    "hastebin-gen": "^2.0.5",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "mysql": "^2.17.1",
+    "os-toolbox": "^0.2.10",
+    "pastebin-js": "^1.0.3",
+    "request": "^2.88.0",
+    "snekfetch": "^4.0.4",
+    "sqlite3": "^4.1.1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordjs"
+  ],
+  "author": "TonyMontana#0001",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scarface-Tony-Montana/Mechan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Scarface-Tony-Montana/Mechan/issues"
+  },
+  "homepage": "https://github.com/Scarface-Tony-Montana/Mechan#readme"
+}

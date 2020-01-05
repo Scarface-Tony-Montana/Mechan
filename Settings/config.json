@@ -1,0 +1,27 @@
+{
+  "discord": {
+    "developers": [
+      "626902605905395732",
+      ""
+  ],
+    "guildInvite":"https://discord.gg/",
+    "token": "NjYwNTk0MzMxNzQwMTQzNjM3.XgsbgQ.-sxBUhtQ3ugDXt4hnbn-nor31jI",
+    "prefix": "!io",
+    "owner": "626902605905395732",
+    "debugMode": false,
+    "commandNotFound": true,
+    "footerIMG":"ENTER URL HERE"
+  },
+  "nitro": {
+    "GuildID": "635909584124641331",
+    "RoleID": "635909819945189406"
+  },
+  "global_announcement_blacklist":[
+    "635909584124641331",
+    ""
+  ],
+  "logs": {
+    "webhook_id": "660630075993096254",
+    "webhook_token": "MGX9rrKP_vewxG7sBE1tXoh67cb0bRYzJXXEVOkFA9mTGAWaSuEFPh5g2E8IMbtowcPO"
+  }
+}
