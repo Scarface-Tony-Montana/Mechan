@@ -35,6 +35,7 @@ $ npm install
 $ npm start
 $ pip install speedtest-cli (requires python3)
 ```
+***Only if you have issues with "cannot find sqlite3.node"***
 ```sh Debian/Unbuntu
 $ sudo apt-get install sqlite3
 $ sudo apt-get install libsqlite3-dev
