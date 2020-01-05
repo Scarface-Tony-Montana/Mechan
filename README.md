@@ -33,6 +33,7 @@ After that, you can install the dependencies and start the bot
 $ cd MechanDiscordBot
 $ npm install
 $ npm start
+$ pip install speedtest-cli (requires python3)
 ```
 **OR** start the bot using the `linux_run.sh` for Linux or `windows_run.bat` for Windows. _These files may be outdated._
 
