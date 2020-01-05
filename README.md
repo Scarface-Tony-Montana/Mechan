@@ -1,7 +1,7 @@
 # Mechan Discord Bot (Made with Discord.js)
 This is my second publicly shared Discord Bot made using [Discord.js](https://github.com/hydrabolt/discord.js).
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a53801bdb675456da9c9e0f5794d26f5?branch=master)](https://www.codacy.com/app/NdT3Development/DiscordBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NdT3Development/DiscordBot&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8826b0cc60014766a41f246e363f63b5)](https://www.codacy.com/manual/BetterOffGone/Mechan?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Scarface-Tony-Montana/Mechan&amp;utm_campaign=Badge_Grade)
 
 ## It currently has these features:
   - Bot Information command (with vps speedtest *speedtest-cli required - pip install speedtest-cli*)
