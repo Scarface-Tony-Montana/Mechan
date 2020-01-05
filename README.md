@@ -1,0 +1,2 @@
+# Mechan
+Simple Discord Bot
