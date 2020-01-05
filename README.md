@@ -35,7 +35,10 @@ $ npm install
 $ npm start
 $ pip install speedtest-cli (requires python3)
 ```
-**OR** start the bot using the `linux_run.sh` for Linux or `windows_run.bat` for Windows. _These files may be outdated._
+```sh Debian/Unbuntu
+$ sudo apt-get install sqlite3
+$ sudo apt-get install libsqlite3-dev
+```
 
 **NOTE:** Running the bot with a process manager (like PM2) is recommended.
 
