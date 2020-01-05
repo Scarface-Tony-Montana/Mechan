@@ -19,7 +19,7 @@ This bot requires [Node.js](https://nodejs.org/) v10+ (and npm) and python modul
 
 Also, please make a channel for mod logs in your Discord server.
 
-Once you have that done, edit the `config.json.example` file and then rename the file to `config.json`. 
+Once you have that done, edit the `config.json` file in `Settings` folder. 
 
 ![Bot Application](https://cdn.discordapp.com/attachments/660622013819256842/663388630399713291/unknown.png)
 
